@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custome style */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    background: #1d2029;
+    padding: 32px;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Social Media Dashboard */
+h1 {
+    color: white;
+    font-size: 40px;
+}
+h5 {
+    font-size: 20px;
+}
+.header h5, .dark-mode{
+    color: #8a8fad;
+}
+.toggle {
+    width: 50px;
+    height: 20px;
+    background: linear-gradient(#3f94d0, #40c89a);
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 10px;
+}
+.round {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #242a45;
+}
+.first-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #252b43;
+    width: 250px;
+    height: 200px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.section {
+    margin-top: 40px;
+}
+.top-border {
+    width: 100%;
+    height: 4px;
+    background-color: #198ff5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.social-media, .fab{
+    color: red;
+}
+.social-media a {
+    text-decoration: none;
+    color: #7c85a6;
+}
+.number {
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+.follower-count {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.followers-increase {
+    color: #458785;
+}
+.follow-data {
+    color: #a2495b;
+}
+.fab{
+    color: rgb(29,143,238);
+  }
+.insta .top-border {
+    width: 100%;
+  height: 4px;
+  background:linear-gradient(to right, rgb(219, 173, 136), rgb(207,110,142));
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.yout .top-border {
+    background-color: red;
+}
+.fa-instagram-square{
+    color: rgb(238, 161, 183);
+    background: linear-gradient(to right, rgba(235,184,130 , 0.2), rgba(231, 0, 100, 0.8));
+  }
+.fa-youtube-square {
+    color: #b50c2f;
+    background-color: #2e273d;
+}
+.fa-caret-down {
+    color: red;
+}
+/*Overview today Css Style */
+h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #252b43;
+    width: 22%;
+    height: 120px;
+    border-radius: 4px;
+}
+.head-top, .numberc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.numberc {
+    align-items: baseline;
+    align-content: flex-end;
+}
+.todayc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 300px;
+}
+.head-top .head {
+    font-size: 15px;
+    color: #8f98b9;
+    font-weight: 700;
+
+}
+.numberc .number1 {
+    color:#fff;
+    font-weight: 700;
+    font-size: 40px;
+}
